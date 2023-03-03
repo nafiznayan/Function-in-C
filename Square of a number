@@ -1,0 +1,15 @@
+#include<stdio.h>
+double square(int a)
+{
+    double s=a*a;
+    return s;
+}
+int main()
+{
+    int x;
+    printf("Enter a number:");
+    scanf("%d",&x);
+    printf("The square of %d is %.0lf",x,square(x));
+
+    return 0;
+}
